@@ -1,0 +1,3 @@
+9090 = 0x2382
+host (little-endian) bytes  : 82 23
+network (big-endian) bytes : 23 82

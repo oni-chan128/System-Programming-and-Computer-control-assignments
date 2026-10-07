@@ -1,2 +1,2 @@
     PID STAT %CPU WCHAN                    CMD
-   2907 S+    0.0 inet_csk_accept          ./server
+   6662 S+    0.0 inet_csk_accept          ./server

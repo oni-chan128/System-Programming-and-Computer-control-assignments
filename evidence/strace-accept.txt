@@ -1,4 +1,52 @@
-strace: Process 2907 attached
+accept(3, {sa_family=AF_INET, sin_port=htons(41826), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "STATUS\n", 255, 0, NULL, NULL) = 7
+sendto(4, "STATUS OK\n", 10, 0, NULL, 0) = 10
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(41842), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "EVENT LOGIN_FAILED\n", 255, 0, NULL, NULL) = 19
+sendto(4, "EVENT ACCEPTED\n", 15, 0, NULL, 0) = 15
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(41848), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
 recvfrom(4, "", 255, 0, NULL, NULL)     = 0
 close(4)                                = 0
-accept(3, 
+accept(3, {sa_family=AF_INET, sin_port=htons(52410), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "NOT_A_COMMAND\n", 255, 0, NULL, NULL) = 14
+sendto(4, "ERROR INVALID_REQUEST\n", 22, 0, NULL, 0) = 22
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52414), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"..., 255, 0, NULL, NULL) = 255
+sendto(4, "ERROR INVALID_REQUEST\n", 22, 0, NULL, 0) = 22
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52422), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "STATUS\n", 255, 0, NULL, NULL) = 7
+sendto(4, "STATUS OK\n", 10, 0, NULL, 0) = 10
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52424), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "EVENT LOGIN_FAILED\n", 255, 0, NULL, NULL) = 19
+sendto(4, "EVENT ACCEPTED\n", 15, 0, NULL, 0) = 15
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52432), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "NOT_A_COMMAND\n", 255, 0, NULL, NULL) = 14
+sendto(4, "ERROR INVALID_REQUEST\n", 22, 0, NULL, 0) = 22
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52442), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"..., 255, 0, NULL, NULL) = 255
+sendto(4, "ERROR INVALID_REQUEST\n", 22, 0, NULL, 0) = 22
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52446), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "EVENT BBBBBBBBBBBBBBBBBBBBBBBBBB"..., 255, 0, NULL, NULL) = 255
+sendto(4, "EVENT ACCEPTED\n", 15, 0, NULL, 0) = 15
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52462), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "STA", 255, 0, NULL, NULL)  = 3
+sendto(4, "ERROR INVALID_REQUEST\n", 22, 0, NULL, 0) = 22
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52466), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "STATUS\nSTATUS\n", 255, 0, NULL, NULL) = 14
+sendto(4, "STATUS OK\n", 10, 0, NULL, 0) = 10
+close(4)                                = 0
+accept(3, {sa_family=AF_INET, sin_port=htons(52478), sin_addr=inet_addr("127.0.0.1")}, [16]) = 4
+recvfrom(4, "EVENT hi\33[31mRED\n", 255, 0, NULL, NULL) = 17
+sendto(4, "EVENT ACCEPTED\n", 15, 0, NULL, 0) = 15
+close(4)                                = 0
+accept(3,  <detached ...>
