@@ -1,2 +1,2 @@
 [client] connected, FD=3
-[client] server response: EVENT ACCEPTED
+[client] server response: STATUS OK

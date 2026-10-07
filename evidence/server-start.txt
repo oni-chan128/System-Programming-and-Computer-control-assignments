@@ -30,3 +30,8 @@
 [server] accepted client FD=4 from 127.0.0.1:45172
 [server] accepted client FD=4 from 127.0.0.1:45184
 [server] received event: hi[31mRED
+[server] accepted client FD=4 from 127.0.0.1:34534
+[server] accepted client FD=4 from 127.0.0.1:49518
+[server] received event: LOGIN_FAILED
+[server] accepted client FD=4 from 127.0.0.1:58474
+[server] client disconnected before sending data

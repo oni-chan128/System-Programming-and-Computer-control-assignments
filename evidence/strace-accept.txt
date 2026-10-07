@@ -1,0 +1,4 @@
+strace: Process 2907 attached
+recvfrom(4, "", 255, 0, NULL, NULL)     = 0
+close(4)                                = 0
+accept(3, 
