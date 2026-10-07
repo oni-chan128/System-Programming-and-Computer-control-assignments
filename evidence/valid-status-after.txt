@@ -1,0 +1,2 @@
+[client] connected, FD=3
+[client] server response: STATUS OK

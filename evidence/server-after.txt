@@ -1,0 +1,26 @@
+[server] listening on 127.0.0.1:9090
+[server] listening FD = 3
+[server] limits: request 256 bytes, event message 128 bytes, idle timeout 5 s
+[server] waiting in accept()...
+[server] accepted client FD=4 from 127.0.0.1:54194
+[server] accepted client FD=4 from 127.0.0.1:54200
+[server] received event: LOGIN_FAILED
+[server] accepted client FD=4 from 127.0.0.1:54206
+[server] rejected: unknown command
+[server] accepted client FD=4 from 127.0.0.1:54220
+[server] rejected: request longer than 256 bytes
+[server] accepted client FD=4 from 127.0.0.1:54222
+[server] accepted client FD=4 from 127.0.0.1:54236
+[server] received event: LOGIN_FAILED
+[server] accepted client FD=4 from 127.0.0.1:54248
+[server] rejected: unknown command
+[server] accepted client FD=4 from 127.0.0.1:54256
+[server] rejected: request longer than 256 bytes
+[server] accepted client FD=4 from 127.0.0.1:54270
+[server] rejected: request longer than 256 bytes
+[server] accepted client FD=4 from 127.0.0.1:54274
+[server] accepted client FD=4 from 127.0.0.1:54284
+[server] accepted client FD=4 from 127.0.0.1:54288
+[server] rejected: event message has non-printable characters
+[server] accepted client FD=4 from 127.0.0.1:54300
+[server] client idle for 5 s: closing

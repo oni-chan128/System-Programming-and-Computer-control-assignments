@@ -1,0 +1,34 @@
+=== probe of 127.0.0.1:9090 ===
+
+P1 valid STATUS
+    reply=b'STATUS OK\n'
+    closed_cleanly_by_server=True  error=None
+
+P2 valid EVENT
+    reply=b'EVENT ACCEPTED\n'
+    closed_cleanly_by_server=True  error=None
+
+P3 invalid command
+    reply=b'ERROR INVALID_REQUEST\n'
+    closed_cleanly_by_server=True  error=None
+
+P4 oversized: 1000 x 'A'
+    reply=b'ERROR LINE_TOO_LONG\n'
+    closed_cleanly_by_server=True  error=None
+
+P5 oversized EVENT: 'EVENT ' + 1000 x 'B'
+    reply=b'ERROR LINE_TOO_LONG\n'
+    closed_cleanly_by_server=True  error=None
+
+P6 fragmented request: 'STA' then 'TUS\n'
+    reply=b'STATUS OK\n'
+    closed_cleanly_by_server=True  error=None
+
+P7 two requests in one send: 'STATUS\nSTATUS\n'
+    reply=b'STATUS OK\n'
+    closed_cleanly_by_server=True  error=None
+
+P8 EVENT with terminal escape characters
+    reply=b'ERROR INVALID_CHARACTERS\n'
+    closed_cleanly_by_server=True  error=None
+

@@ -1,0 +1,31 @@
+--- evidence/probe-baseline.txt	2026-10-07 13:12:52.348718805 +0200
++++ evidence/probe-after.txt	2026-10-07 13:14:22.182251455 +0200
+@@ -13,15 +13,15 @@
+     closed_cleanly_by_server=True  error=None
+ 
+ P4 oversized: 1000 x 'A'
+-    reply=b'ERROR INVALID_REQUEST\n'
+-    closed_cleanly_by_server=False  error=ConnectionResetError(104, 'Connection reset by peer')
++    reply=b'ERROR LINE_TOO_LONG\n'
++    closed_cleanly_by_server=True  error=None
+ 
+ P5 oversized EVENT: 'EVENT ' + 1000 x 'B'
+-    reply=b'EVENT ACCEPTED\n'
+-    closed_cleanly_by_server=False  error=ConnectionResetError(104, 'Connection reset by peer')
++    reply=b'ERROR LINE_TOO_LONG\n'
++    closed_cleanly_by_server=True  error=None
+ 
+ P6 fragmented request: 'STA' then 'TUS\n'
+-    reply=b'ERROR INVALID_REQUEST\n'
++    reply=b'STATUS OK\n'
+     closed_cleanly_by_server=True  error=None
+ 
+ P7 two requests in one send: 'STATUS\nSTATUS\n'
+@@ -29,6 +29,6 @@
+     closed_cleanly_by_server=True  error=None
+ 
+ P8 EVENT with terminal escape characters
+-    reply=b'EVENT ACCEPTED\n'
++    reply=b'ERROR INVALID_CHARACTERS\n'
+     closed_cleanly_by_server=True  error=None
+ 
