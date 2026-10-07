@@ -1,0 +1,32 @@
+[server] listening on 127.0.0.1:9090
+[server] listening FD = 3
+[server] waiting in accept()...
+[server] accepted client FD=4 from 127.0.0.1:39638
+[server] accepted client FD=4 from 127.0.0.1:57620
+[server] received event: LOGIN_FAILED
+[server] accepted client FD=4 from 127.0.0.1:49840
+[server] client disconnected before sending data
+[server] accepted client FD=4 from 127.0.0.1:54814
+[server] accepted client FD=4 from 127.0.0.1:43776
+[server] accepted client FD=4 from 127.0.0.1:49072
+[server] accepted client FD=4 from 127.0.0.1:49076
+[server] received event: LOGIN_FAILED
+[server] accepted client FD=4 from 127.0.0.1:49084
+[server] accepted client FD=4 from 127.0.0.1:49090
+[server] accepted client FD=4 from 127.0.0.1:49100
+[server] received event: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+[server] accepted client FD=4 from 127.0.0.1:49114
+[server] accepted client FD=4 from 127.0.0.1:49116
+[server] accepted client FD=4 from 127.0.0.1:49132
+[server] received event: hi[31mRED
+[server] accepted client FD=4 from 127.0.0.1:45114
+[server] accepted client FD=4 from 127.0.0.1:45130
+[server] received event: LOGIN_FAILED
+[server] accepted client FD=4 from 127.0.0.1:45136
+[server] accepted client FD=4 from 127.0.0.1:45138
+[server] accepted client FD=4 from 127.0.0.1:45152
+[server] received event: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+[server] accepted client FD=4 from 127.0.0.1:45164
+[server] accepted client FD=4 from 127.0.0.1:45172
+[server] accepted client FD=4 from 127.0.0.1:45184
+[server] received event: hi[31mRED

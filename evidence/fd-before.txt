@@ -1,0 +1,5 @@
+total 0
+lrwx------ 1 potato potato 64 Oct  7 12:13 0 -> /dev/pts/1
+l-wx------ 1 potato potato 64 Oct  7 12:13 1 -> pipe:[24665]
+l-wx------ 1 potato potato 64 Oct  7 12:13 2 -> pipe:[24665]
+lrwx------ 1 potato potato 64 Oct  7 12:13 3 -> socket:[24669]
