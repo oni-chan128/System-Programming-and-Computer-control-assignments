@@ -264,35 +264,7 @@ evidence/
 ├── valid-client.txt
 ├── invalid-client.txt
 └── oversized-input.txt
-```
 
-## 7. Presentation defence questions
-
-Every group member should be able to answer:
-
-1. What does `socket()` return?
-2. Why does `bind()` happen before `listen()`?
-3. What does `listen()` do?
-4. Why does `accept()` return another FD?
-5. What happens to the listening FD after `accept()`?
-6. Why can `accept()` block?
-7. What makes this different from an uncontrolled busy loop?
-8. What does `connect()` do?
-9. Why do we use `htons()`?
-10. What happens if the client sends an invalid request?
-11. How did you test oversized input?
-12. What Linux tool proves that port 9090 is listening?
-13. What Linux tool can show the server's open descriptors?
-14. What does `strace` show when the server is waiting?
-15. What resource needs to be closed?
-16. What would happen if the server did not validate input?
-17. Why is this server iterative rather than multi-client?
-18. How would a future Week 3 design improve concurrent client handling?
-
-## 8. Important limitation
-
-This is a Week 2 Q4 implementation. It is deliberately an iterative server.
-The multi-client/event-driven redesign belongs to Question 6 in Week 3.
 
 The purpose here is to investigate the basic TCP lifecycle, descriptors,
 blocking, byte order, Linux observation and application-level input handling.
